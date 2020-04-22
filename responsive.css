@@ -1,32 +1,32 @@
 @media (max-width:670px){
   .main-wrapper{
-  height:800px;
+  height:700px;
   }
 
   .photo2{
-    height:800px;
+    height:700px;
   }
 
   .photo3{
-    height:800px;
+    height:700px;
   }
 
   .photo4{
-    height:800px;
+    height:700px;
   }
 
   .photo5{
-    height:800px;
+    height:700px;
   }
 
   .photo6{
-    height:800px;
+    height:700px;
   }
 
   .main-wrapper h1{
     position:absolute;
-    top:20%;
-    font-size:35px;
+    top:15%;
+    font-size:30px;
     letter-spacing:1px;
 
 
@@ -35,22 +35,22 @@
   ul{
     position: absolute;
     top:40%;
-    font-size:40px;
+    font-size:30px;
   }
 
   li{
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:15px;
+    padding-bottom:15px;
   }
 
   .btn{
-    line-height: 80px;
-    height:80px;
-    width:250px;
+    line-height: 55px;
+    height:60px;
+    width:200px;
   }
 
   .main-wrapper h1{
-    font-size:35px;
+    font-size:40px;
     letter-spacing:1px;
   }
 
