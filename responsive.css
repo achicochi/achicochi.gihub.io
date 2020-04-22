@@ -1,0 +1,49 @@
+@media (max-width:670px){
+  .main-wrapper{
+  height:1170px;
+  }
+
+  .photo2{
+    height:1170px;
+  }
+
+  .photo3{
+    height:1170px;
+  }
+
+  .photo4{
+    height:1170px;
+  }
+
+  .photo5{
+    height:1170px;
+  }
+
+  .photo6{
+    height:1170px;
+  }
+
+  .main-wrapper h1{
+    position:absolute;
+    top:40%;
+  }
+
+  ul{
+    position: absolute;
+    top:60%;
+    font-size:40px;
+  }
+
+  li{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .btn{
+    line-height: 100px;
+    height:100px;
+    width:300px;
+  }
+
+
+}
