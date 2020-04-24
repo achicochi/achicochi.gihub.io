@@ -31,13 +31,18 @@ li {
 
 
 header{
+  width:100%;
+position:fixed;
+top:0;
+z-index: 20;
 color:white;
 height:50px;
 background-color:black;
 }
 
 .main-wrapper{
-height:470px;
+  margin-top:50px;
+height:90vh;
 text-align: center;
 position:relative;
 background-color: white;
@@ -85,18 +90,25 @@ li{
 
 
 footer{
+  width:100%;
+  position:fixed;
+  bottom:0;
+  z-index: 19;
   height:50px;
   background-color:black;
 }
 
 
 footer a{
+  position:fixed;
+  bottom:10px;
+  right:15px;
+  z-index: 20;
   font-size:18px;
   font-family:arial;
   color:white;
   float:right;
   padding:5px 10px;
-  margin:10px 15px 0 0;
   background-color:rgb(128,128,128,0.5);
 }
 
@@ -110,7 +122,7 @@ footer a:hover{
   top:0;
   left:0;
   right:0;
-  height:470px;
+  height:90vh;
   width:100%;
   opacity:0;
 
@@ -125,7 +137,7 @@ footer a:hover{
   top:0;
   left:0;
   right:0;
-  height:470px;
+  height:90vh;
   width:100%;
   opacity:0;
   animation-name: changeMainImage;
@@ -139,7 +151,7 @@ footer a:hover{
   top:0;
   left:0;
   right:0;
-  height:470px;
+  height:90vh;
   width:100%;
   opacity:0;
   animation-name: changeMainImage;
@@ -153,7 +165,7 @@ footer a:hover{
   top:0;
   left:0;
   right:0;
-  height:470px;
+  height:90vh;
   width:100%;
   opacity:0;
   animation-name: changeMainImage;
@@ -167,7 +179,7 @@ footer a:hover{
   top:0;
   left:0;
   right:0;
-  height:470px;
+  height:90vh;
   width:100%;
   opacity:0;
 
@@ -223,4 +235,8 @@ footer a:hover{
   40%{
     opacity:0;
   }
+}
+
+*{
+  box-sizing:border-box;
 }
