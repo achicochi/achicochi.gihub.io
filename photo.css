@@ -94,7 +94,13 @@ img{
   height:40px;
 }
 
+@media (max-width:480px){
+  .content-img p{
+    font-size:8px;
+    line-height: 10px;
+  }
+}
+
 .clear{
   clear:left;
 }
-
