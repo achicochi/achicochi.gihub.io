@@ -88,6 +88,13 @@ img{
   float:left;
 }
 
+.content-img p{
+  letter-spacing: 0.1px;
+  width:95%;
+  height:40px;
+}
+
 .clear{
   clear:left;
 }
+
