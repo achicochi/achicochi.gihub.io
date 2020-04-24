@@ -1,31 +1,31 @@
 @media (max-width:670px){
   .main-wrapper{
-  height:700px;
+  height:90vh;
   }
 
   .photo2{
-    height:700px;
+    height:90vh;
   }
 
   .photo3{
-    height:700px;
+    height:90vh;
   }
 
   .photo4{
-    height:700px;
+    height:90vh;
   }
 
   .photo5{
-    height:700px;
+    height:90vh;
   }
 
   .photo6{
-    height:700px;
+    height:90vh;
   }
 
   .main-wrapper h1{
     position:absolute;
-    top:15%;
+    top:8%;
     font-size:30px;
     letter-spacing:1px;
 
@@ -34,13 +34,13 @@
 
   ul{
     position: absolute;
-    top:40%;
+    top:42%;
     font-size:30px;
   }
 
   li{
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:10px;
+    padding-bottom:10px;
   }
 
   .btn{
@@ -55,3 +55,4 @@
   }
 
 }
+
