@@ -78,9 +78,9 @@ footer a:hover{
 }
 
 img{
-  height:25vh;
-  width:32vw;
-  padding-right:1px;
+  height:40vh;
+  width:25vw;
+  padding-right:3px;
 }
 
 
@@ -91,12 +91,19 @@ img{
 .content-img p{
   letter-spacing: 0.1px;
   width:95%;
-  height:40px;
+  height:25px;
 }
 
 @media (max-width:480px){
+  img{
+  height:25vh;
+  width:33vw;
+  padding-right:3px;
+
+  }
   .content-img p{
-    font-size:8px;
+    padding-left:3px;
+    font-size:10px;
     line-height: 10px;
   }
 }
